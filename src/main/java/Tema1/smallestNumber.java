@@ -1,9 +1,8 @@
-package Teme;
+package Tema1;
 
 // 2. Display the smallest number from an array of numbers (2 versions: with normal for and with foreach)
 
 import java.util.Scanner;
-import static java.lang.Math.*;
 
 import static java.lang.Integer.min;
 
@@ -38,11 +37,10 @@ public class smallestNumber {
 */
 
 
-        for (int i = 0; i < leng; i++){
+        for (int i = 0; i < leng; i++) {
             minNum = (minNum > arrayIn[i]) ? arrayIn[i] : minNum;
         }
-        System.out.println("numarul cel mai mic din lista este: "+ minNum);
-
+        System.out.println("numarul cel mai mic din lista este: " + minNum);
 
 
     }

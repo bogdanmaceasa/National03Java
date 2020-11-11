@@ -1,4 +1,4 @@
-package Teme;
+package Tema1;
 
 //  9. Write a Java program to remove the duplicate elements of a given array and return the new length of the array.
 
@@ -15,32 +15,32 @@ public class removeDuplicates {
         int[] arrayNoDuplicates = new int[length];
 
         System.out.println("introduceti elementele sirului");
-        for ( int i = 0; i<length; i++){
-           array[i]=sc.nextInt();
+        for (int i = 0; i < length; i++) {
+            array[i] = sc.nextInt();
         }
 
-        int newLength= 0;
+        int newLength = 0;
 
-        for ( int i : array ) {
+        for (int i : array) {
             boolean unique = true;
 
-            for ( int j : arrayNoDuplicates ) {
-                if ( i == j) {
+            for (int j : arrayNoDuplicates) {
+                if (i == j) {
                     unique = false;
                     break;
                 }
 
             }
 
-            if (unique){
-                arrayNoDuplicates[newLength]=i;
+            if (unique) {
+                arrayNoDuplicates[newLength] = i;
                 newLength++;
             }
 
 
         }
         System.out.println("length of the unique array is " + newLength + " and the unique elements of the array are: ");
-        for ( int i=0; i<newLength; i++ ) {
+        for (int i = 0; i < newLength; i++) {
             System.out.print(arrayNoDuplicates[i] + " ");
 
         }

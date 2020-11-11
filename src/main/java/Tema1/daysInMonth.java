@@ -1,4 +1,4 @@
-package Teme;
+package Tema1;
 
 /*
 
@@ -15,13 +15,12 @@ public class daysInMonth {
 
     public static void main(String[] args) {
 
-        byte[] monthToDays = {31,28,31,30,31,30,31,31,30,31,30,31};
+        byte[] monthToDays = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
         Scanner sc = new Scanner(System.in);
         byte month = sc.nextByte();
 
-        System.out.println("numarul de zile din luna " + month + " este " + monthToDays[month-1] );
-
+        System.out.println("numarul de zile din luna " + month + " este " + monthToDays[month - 1]);
 
 
     }

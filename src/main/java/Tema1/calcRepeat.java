@@ -1,4 +1,4 @@
-package Teme;
+package Tema1;
 
 //  7. Change the implementation of the calculator from the previous meeting to not stop after one calculation. (Hint: put switch inside a while loop)
 

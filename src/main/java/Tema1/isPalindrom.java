@@ -1,4 +1,4 @@
-package Teme;
+package Tema1;
 
 // 4. Check if a number is palindrom ( e.g palindrom 1221, 34143), read the number from keyboard.
 
@@ -12,7 +12,7 @@ public class isPalindrom {
         Scanner myNumber = new Scanner(System.in);
         System.out.println("introduceti un numar");
         int num = myNumber.nextInt();
-        int number,number2 = num;
+        int number, number2 = num;
         int length = 0;
 
 /*
@@ -34,7 +34,7 @@ public class isPalindrom {
 //        int[] numArray = new int[length];
 //        int i = 0;
 //        while (number >= 1) {
-//            numArray[i] = number%10;
+//            numArray[i] = number % 10;
 //            number /= 10;
 //            i++;
 //        }
@@ -43,7 +43,7 @@ public class isPalindrom {
 //
 //        boolean isPalindrom = true;
 //
-//        for (int j=0; j<=(length/2); j++) {
+//        for (int j = 0; j <= (length / 2); j++) {
 //            if (numArray[j] != numArray[length - j - 1]) {
 //                isPalindrom = false;
 //                System.out.println("numarul nu este palindrom");
@@ -59,15 +59,15 @@ public class isPalindrom {
     ==================================================================================================================
 
  */
-    int reverseNumber = 0;
-    while (number2 >= 1) {
-            reverseNumber = reverseNumber*10 + number2%10 ;
+        int reverseNumber = 0;
+        while (number2 >= 1) {
+            reverseNumber = reverseNumber * 10 + number2 % 10;
             number2 /= 10;
 
-    }
-    if (reverseNumber == num)
-        System.out.println("numarul este palindrom");
-    else System.out.println("numarul nu este palindrom");
+        }
+        if (reverseNumber == num)
+            System.out.println("numarul este palindrom");
+        else System.out.println("numarul nu este palindrom");
 
 
     }
