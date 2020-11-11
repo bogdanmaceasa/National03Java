@@ -1,4 +1,4 @@
-package Tema1;
+package tema1;
 
 //   3. Display the max digit from a number, read the number from keyboard.
 

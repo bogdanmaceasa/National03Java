@@ -1,4 +1,4 @@
-package Tema1;
+package tema1;
 
 //  6. Change the implementation of the calculator from the previous meeting to use only if-else instead of switch.
 

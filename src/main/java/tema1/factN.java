@@ -1,4 +1,4 @@
-package Tema1;
+package tema1;
 
 //  8. Calculate and display the factorial of a given number n. (ex: 4! = 1*2*3*4)
 

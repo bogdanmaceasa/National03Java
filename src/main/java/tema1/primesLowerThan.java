@@ -1,4 +1,4 @@
-package Tema1;
+package tema1;
 
 // 5. Display all the prime numbers lower than a given number, read the number from keyboard
 

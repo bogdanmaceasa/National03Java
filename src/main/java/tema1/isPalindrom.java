@@ -1,4 +1,4 @@
-package Tema1;
+package tema1;
 
 // 4. Check if a number is palindrom ( e.g palindrom 1221, 34143), read the number from keyboard.
 

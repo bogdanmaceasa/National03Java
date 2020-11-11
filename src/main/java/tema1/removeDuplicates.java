@@ -1,4 +1,4 @@
-package Tema1;
+package tema1;
 
 //  9. Write a Java program to remove the duplicate elements of a given array and return the new length of the array.
 

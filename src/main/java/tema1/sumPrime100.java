@@ -1,4 +1,4 @@
-package Tema1;
+package tema1;
 
 // 1. Calculate the sum of the first 100 prime numbers.
 
