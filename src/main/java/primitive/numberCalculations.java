@@ -9,7 +9,7 @@ package primitive;
 //                                                                          //
 //Implement in java the following algorithms:                               //
 //                                                                          //
-//1. Calculate the sum of the first 100 numbers higher than 0 DONE          //
+//1. Calculate the sum of the first 100 numbers higher than 0               //
 //                                                                          //
 //2. Display the smallest number from an array of number                    //
 //                                                                          //
@@ -100,13 +100,13 @@ public class numberCalculations {
 
 //      3) Display the biggest digit from a number
 
-//
+////
 //        Scanner myNumber= new Scanner(System.in);
 //        System.out.println("introduceti un numar de mai multe cifre");
 //        int number=myNumber.nextInt();
 //        int maxDigit = Integer.MIN_VALUE;
-
-
+//
+//
 ////      VARIANTA 1
 ////      ===========================================================
 //        while(number>=1){
@@ -114,7 +114,7 @@ public class numberCalculations {
 //            number/=10;
 //
 //        }
-
+//
 //      VARIANTA 2
 //      ===========================================================
 //        while(number>=1){
@@ -123,7 +123,7 @@ public class numberCalculations {
 //        }
 //
 //        System.out.println("cea mai mare cifra a numarului introdus este " + maxDigit);
-//
+////
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -207,7 +207,7 @@ public class numberCalculations {
 //        int num=myNumber.nextInt();
 //
 //
-//        int[] primeArray= new int[Byte.MAX_VALUE];
+//        int[] primeArray= new int[];
 //        primeArray[0]=1;
 //        primeArray[1]=2;
 //        int k=1;
@@ -254,7 +254,7 @@ public class numberCalculations {
 //        int num=myNumber.nextInt();
 //
 //
-//        int[] primeArray= new int[Byte.MAX_VALUE];
+//        int[] primeArray= new int[];
 //        primeArray[0]=1;
 //        primeArray[1]=2;
 //        int index=1;
